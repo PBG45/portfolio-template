@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalnia&family=Noto+Sans:wght@400;900&family=Open+Sans&display=swap');
+
+/*
+font-family: 'Kalnia', serif;
+font-family: 'Noto Sans', sans-serif;
+font-family: 'Open Sans', sans-serif;
+*/
+
+#content{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100vh;
+}
+#portfolio{
+    font-family: 'Kalnia', serif;
+    font-size: 24px;
+    padding: 20px;
+    font-weight: 600;
+}
+#your-name{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 80vh;
+}
+#designation{
+    font-family: 'Kalnia', serif;
+    font-size: 22px;
+    padding: 20px 0px 0px 20px;
+    font-weight: 600;
+    color: rgb(255, 193, 7);
+    margin-top: 20px;
+}
+#name{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 60px;
+    padding-left: 20px;
+    font-weight: 600;
+    
+}
+#des-divide{
+    color: rgb(255, 193, 7);
+    height: 20px;
+    width: 80%;
+}
+#more{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    background-color:  rgb(255, 193, 7);
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    transition: .2s all ease-in-out;
+}
+#hire{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    padding: 10px 20px;
+    color: black;
+    transition: .2s all ease-in-out;
+}
+#hire:hover, #more:hover{
+    transform: scale(105%);
+}
+#copy{
+    margin-top: 100px;
+}
+#copyright{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    color: rgba(155, 155,155,.8);
+}
+#menu{
+    cursor: pointer;
+    font-size: 24px;
+    padding: 20px;
+    font-weight: 600;
+}
+#close{
+    display: none;
+    cursor: pointer;
+    font-size: 24px;
+    padding: 20px;
+    font-weight: 600;
+}
+#ul-tag{
+    position: absolute;
+    top: 50px;
+    right: 80px;
+    background-color: white;
+    padding: 20px 40px;
+    border-radius: 10px;
+    list-style-type: none;
+    z-index: 1111;
+}
+#ul-tag li{
+    margin-top: 10px;
+}
+#ul-tag li a{
+    
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    color: black;
+}
+#ul-tag{
+    display: none;
+}
+#man{
+    height: 560px;
+    width: 100%;
+   
+}
+@media (min-width:601px) and (max-width:900px){
+    #man{
+        height: 100%;
+        width: 100%;
+       
+    }
+    #copy{
+        margin-top: 40px;
+    }
+    #coro-container{
+        margin-top: 100px;
+    }
+}
+@media (max-width:600px){
+    #content{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;
+        
+    }
+    #name{
+        font-family: 'Noto Sans', sans-serif;
+        font-size: 40px;
+        padding-left: 20px;
+        font-weight: 600;
+        
+    }
+    #your-name{
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        width: 100%;
+    }
+    #copy{
+        margin-top: 50px;
+        width: 100%;
+    }
+    #copyright{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 12px;
+        text-align: center;
+        color: rgba(155, 155,155,.8);
+    }
+    #man{
+        height: 100%;
+        width: 100%;
+       
+    }
+    #menu{
+        position: absolute;
+        top: 5px;
+        right: 20px;
+        cursor: pointer;
+        font-size: 24px;
+        padding: 20px;
+        font-weight: 600;
+    }
+    #close{
+        position: absolute;
+        top: 5px;
+        right: 20px;
+        display: none;
+        cursor: pointer;
+        font-size: 24px;
+        padding: 20px;
+        font-weight: 600;
+    }
+    #ul-tag{
+        position: absolute;
+        top: 60px;
+        right: 70px;
+        background-color: white;
+        padding: 20px 40px;
+        border-radius: 10px;
+        list-style-type: none;
+        z-index: 1111;
+        
+    }
+    #hire-me{
+     
+        width: 100%;
+        
+    }
+    #images{
+        margin-top: 20px;
+    }
+    
+}
